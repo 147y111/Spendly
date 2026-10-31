@@ -22,4 +22,4 @@ By presenting financial information clearly and keeping the workflow easy to und
 
 AI tools were used to assist with coding, debugging, and documentation. The project concept, visual direction, feature planning, interface decisions, testing, and final implementation were completed and reviewed by the project creator.
 
-The application demonstration video will be added here after the final recording is prepared.
+▶️ [Watch the Spendly application demonstration](media/spendly-demo.mp4)
