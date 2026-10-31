@@ -5,7 +5,7 @@
 Spendly is an iOS personal-finance application developed for Cooper Union STEM Saturday. It was created to help users record daily income and expenses, organize their financial activity, and understand their spending habits without the complexity often found in larger budgeting platforms. The central goal of the project is to make personal-finance tracking simple, clear, and approachable.
 
 <p align="center">
-  <img src="media/spendly-poster.png" alt="Spendly project poster" width="800">
+  <img src="media/spendly-poster-complete.png" alt="Spendly project poster" width="800">
 </p>
 
 When the app opens, users are guided through a login and sign-up system. An optional App Lock adds another layer of protection before financial information can be accessed. After unlocking the app, the home screen presents the current monthly balance, total income, total spending, and recent transactions in a compact card-based layout. This gives users an immediate overview of their financial situation instead of requiring them to search through several screens.
