@@ -48,4 +48,4 @@ flowchart TD
 
 ### Application Demonstration
 
-<video src="media/spendly-demo.mp4" controls width="620"></video>
+<video src="https://github.com/user-attachments/assets/3f378cf8-1819-43a2-b373-d17bfec9e68c" controls width="620"></video>
