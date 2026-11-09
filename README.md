@@ -4,10 +4,6 @@
 
 Spendly is an iOS personal-finance application developed for Cooper Union STEM Saturday. It was created to help users record daily income and expenses, organize their financial activity, and understand their spending habits without the complexity often found in larger budgeting platforms. The central goal of the project is to make personal-finance tracking simple, clear, and approachable.
 
-<p align="center">
-  <img src="media/spendly-poster-complete.png" alt="Spendly project poster" width="800">
-</p>
-
 When the app opens, users are guided through a login and sign-up system. An optional App Lock adds another layer of protection before financial information can be accessed. After unlocking the app, the home screen presents the current monthly balance, total income, total spending, and recent transactions in a compact card-based layout. This gives users an immediate overview of their financial situation instead of requiring them to search through several screens.
 
 Users can create separate ledgers for different purposes, such as daily expenses, travel, or a monthly budget. Each ledger can be named and assigned an icon so that different groups of transactions are easy to recognize. Transactions can also be viewed by date, allowing users to review how their spending changes across specific days or time periods.
@@ -26,4 +22,30 @@ By presenting financial information clearly and keeping the workflow easy to und
 
 AI tools were used to assist with coding, debugging, and documentation. The project concept, visual direction, feature planning, interface decisions, testing, and final implementation were completed and reviewed by the project creator.
 
-▶️ [Watch the Spendly application demonstration](media/spendly-demo.mp4)
+## App Flow
+
+```mermaid
+flowchart TD
+    A[Open Spendly] --> B[Create an account or sign in]
+    B --> C{App Lock enabled?}
+    C -->|Yes| D[Unlock the app]
+    C -->|No| E[Open the home screen]
+    D --> E
+    E --> F[View monthly balance, income, spending, and recent transactions]
+    F --> G[Choose or create a ledger]
+    G --> H[Tap the central plus button]
+    H --> I[Enter amount, category, payment method, date, and optional note]
+    I --> J[Save the transaction locally]
+    J --> K[Update ledger history, totals, charts, and analytics]
+    K --> F
+```
+
+## Project Media
+
+<p align="center">
+  <img src="media/spendly-poster-complete.png" alt="Spendly project poster" width="620">
+</p>
+
+### Application Demonstration
+
+<video src="media/spendly-demo.mp4" controls width="620"></video>
